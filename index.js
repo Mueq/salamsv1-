@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(chalkRainbow(boxen(`
+  console.log(boxen(`
             Duplicate Trophy & Crown            
                     Mueqw V1
   `)))
