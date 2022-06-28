@@ -27,9 +27,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
-`);
+  console.log(chalkRainbow(boxen(`
+            Duplicate Trophy & Crown            
+                    Mueqw V1
+  `)))
 
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
