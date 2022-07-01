@@ -27,7 +27,6 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`
             Duplicate Trophy & Crown            
                     Mueqw V1
   
