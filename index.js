@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(boxen(`
+  console.log(`
             Duplicate Trophy & Crown            
                     Mueqw V1
   `)))
@@ -60,3 +60,4 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 
 
 })();
+ 
