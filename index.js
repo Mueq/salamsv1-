@@ -26,11 +26,14 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
-console.log(chalk.bgRed(
+console.log(chalk.red(`
             Duplicate Trophy & Crown            
                
+                   by Salam
+
                    Mueqw V1
-  `)))
+  `));
+
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
 
