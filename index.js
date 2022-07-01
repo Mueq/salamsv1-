@@ -26,11 +26,11 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
-
+console.log(chalkRainbow(boxen(`
             Duplicate Trophy & Crown            
-                    Mueqw V1
-  
-
+               
+                   Mueqw V1
+  `)))
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
 
