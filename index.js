@@ -30,7 +30,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
   console.log(`
             Duplicate Trophy & Crown            
                     Mueqw V1
-  `)))
+  
 
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
