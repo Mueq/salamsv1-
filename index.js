@@ -52,7 +52,7 @@ console.log(chalk.red(`
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(6000);
+      await sleep(3000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
